@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/action_refresh">
+    </item>
+    <!-- todo: add to above:    app:showAsAction="ifRoom|withText" -->
+
+
+    <item
+        android:id="@+id/action_new"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/action_new"
+        android:icon="@android:drawable/ic_menu_add">
+    </item>
+
+    <item
+        android:id="@+id/action_public_trips"
+        android:title="@string/action_public_trips">
+    </item>
+
+    <item
+        android:id="@+id/action_my_trips"
+        android:title="@string/action_my_trips">
+    </item>
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/action_logout">
+    </item>
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+          android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
